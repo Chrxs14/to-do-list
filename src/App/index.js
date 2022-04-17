@@ -10,7 +10,7 @@ function App() {
     <TodoProvider>
       <Router>
         <Routes>
-          <Route path="/to-do-machine" element={<Index />} />
+          <Route index path="/" element={<Index />} />
           <Route path="/to-do-machine/home" element={<AppUi />} />
         </Routes>
       </Router>
