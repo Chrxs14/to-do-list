@@ -1,0 +1,12 @@
+.TodoSearch {
+  display: flex;
+  width: 70%;
+  max-width: 250px;
+  height: 25px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 20px auto;
+  font-size: 1.7rem;
+}
