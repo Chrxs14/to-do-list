@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route index path="/" element={<Index />} />
-          <Route path="/to-do-machine/home" element={<AppUi />} />
+          <Route path="/home" element={<AppUi />} />
         </Routes>
       </Router>
     </TodoProvider>
